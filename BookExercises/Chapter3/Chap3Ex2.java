@@ -1,3 +1,8 @@
+/*  
+ * Program takes in two values, account balance and annual interest rate, and
+ * outputs the new balance after 1 and 2 years. 
+ */
+
 import acm.program.*;
 
 public class Chap3Ex2 extends ConsoleProgram
