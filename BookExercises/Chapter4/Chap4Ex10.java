@@ -1,9 +1,9 @@
 /*
- * Prints out the Fibonacci sequence. 
+ * Prints out the Fibonacci sequence up till 10,000
  */
 import acm.program.*;
 
-public class Chap4Ex9 extends ConsoleProgram
+public class Chap4Ex10 extends ConsoleProgram
 {
 	public void run()
 	{		
@@ -11,10 +11,12 @@ public class Chap4Ex9 extends ConsoleProgram
 		int a = 1;
 		int fib = 0;
 		
-		for (int i = 0; i < 15; i++)
+		while(fib < 10000)
 		{
+			
 			fib = start + a;
 			start = a;
+			if (fib > 10000) break;
 			println(fib);
 			a = fib;
 			

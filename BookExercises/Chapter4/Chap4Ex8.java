@@ -1,5 +1,5 @@
 /*
- * Takes in a positive integer and prints out the reverse.
+ * Prints out a countdown timer
  */
 import acm.program.*;
 

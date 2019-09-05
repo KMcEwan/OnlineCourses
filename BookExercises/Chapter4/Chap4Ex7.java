@@ -1,5 +1,5 @@
 /*
- * Takes in a positive integer and prints out the reverse.
+ * Prints the Digit root of a number
  */
 import acm.program.*;
 
